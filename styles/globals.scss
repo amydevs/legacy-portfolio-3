@@ -1,0 +1,44 @@
+@import "./variables.scss";
+html {
+  background: #15202b;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #7f94a8;
+  min-height: 100vh;
+  .fullscreen {
+    flex-grow: 1;
+  } 
+}
+
+a {
+  color: $accent-color;
+}
+.title {
+  color: $accent-color;
+  font-size: 20pt;
+}
+
+
+nav {
+  text-align: center;
+  padding: 30px;
+  position: static;
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    &.active {
+      color: $accent-color;
+    }
+  }
+}
