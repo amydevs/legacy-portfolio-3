@@ -4,8 +4,8 @@ export const routes: Route[] = [
         path: "/",
     },
     {
-        name: "Home",
-        path: "/",
+        name: "Portfolio",
+        path: "/portfolio",
     }
 ]
 

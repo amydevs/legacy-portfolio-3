@@ -1,0 +1,9 @@
+.portfolio {
+    .projcontainer {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+}
