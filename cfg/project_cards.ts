@@ -1,5 +1,7 @@
 import { ProjectCardProps } from "components/ProjectCard";
 
+import { mdiGithub, mdiWeb, mdiDownload } from '@mdi/js';
+
 const project_cards: ProjectCardProps[] = [
     {
         title: "Chip-8 Interpretting Emulator",
@@ -8,7 +10,7 @@ const project_cards: ProjectCardProps[] = [
             {
                 text: "GitHub",
                 href: 'https://github.com/jy1263/chip-8-emu-rs',
-                icon: 'mdi-github'
+                icon: mdiGithub
             }
         ]
     },
@@ -19,12 +21,12 @@ const project_cards: ProjectCardProps[] = [
             {
                 text: "GitHub",
                 href: 'https://github.com/jy1263/TaxCalculatorLaravel',
-                icon: 'mdi-github'
+                icon: mdiGithub
             },
             {
                 text: "Demo",
                 href: 'https://austaxcalc.000webhostapp.com/',
-                icon: 'mdi-web'
+                icon: mdiWeb
             }
         ]
     },
@@ -35,7 +37,7 @@ const project_cards: ProjectCardProps[] = [
             {
                 text: "GitHub",
                 href: 'https://github.com/jy1263/TapeSync',
-                icon: 'mdi-github'
+                icon: mdiGithub
             }
         ]
     },
@@ -46,7 +48,7 @@ const project_cards: ProjectCardProps[] = [
             {
                 text: "GitHub",
                 href: 'https://github.com/jy1263/TapeMobile',
-                icon: 'mdi-github'
+                icon: mdiGithub
             }
         ]
     },
@@ -57,7 +59,7 @@ const project_cards: ProjectCardProps[] = [
             {
                 text: "GitHub",
                 href: 'https://github.com/SRXDModdingGroup/SRXDBepInExInstaller',
-                icon: 'mdi-github'
+                icon: mdiGithub
             }
         ]
     },
@@ -68,12 +70,12 @@ const project_cards: ProjectCardProps[] = [
             {
                 text: "GitHub",
                 href: "https://github.com/jy1263/exalta",
-                icon: "mdi-github"
+                icon: mdiGithub
             },
             {
                 text: "Download",
                 href: "https://github.com/jy1263/exalta/releases/latest",
-                icon: "mdi-download"
+                icon: mdiDownload
             }
         ]
     }

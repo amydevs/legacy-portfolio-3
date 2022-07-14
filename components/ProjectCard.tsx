@@ -12,7 +12,7 @@ export interface ProjectCardProps {
 const ProjectCard: NextPage<ProjectCardProps> = (props) => {
     return (
         <div className={styles.card}>
-            <span className={styles.title}>{props.title}</span>
+            <span className='title'>{props.title}</span>
             <div className={styles.description}>{props.description}</div>
             <div className={styles.actions}>
                 { 
