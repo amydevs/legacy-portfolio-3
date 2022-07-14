@@ -4,7 +4,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    background: rgba($color: #ffffff, $alpha: 0.05);
+    background: var(--overlay_lighten);
     border-radius: $default-border-radius;
     padding: 20px;
     margin: 10px;

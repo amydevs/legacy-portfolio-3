@@ -4,7 +4,7 @@
     > div {
         padding: 15px;
         border-radius: $default-border-radius;
-        background: rgba($color: #ffffff, $alpha: 0.05);
+        background: var(--overlay_lighten);
 
         iframe {
             border-radius: 12px;

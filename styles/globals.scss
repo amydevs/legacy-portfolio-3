@@ -1,6 +1,18 @@
 @import "./variables.scss";
+
+:root {
+  --background: #15202b;
+  --text_col: #7f94a8;
+  --overlay_lighten: rgba(255, 255, 255, 0.05);
+  --overlay_darken: rgba(0, 0, 0, 0.3);
+}
+[data-theme='light'] {
+  --background: white;
+  --text_col: white;
+}
+
 html {
-  background: #15202b;
+  background: var(--background);
   height: 100%;
 }
 
@@ -14,7 +26,7 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #7f94a8;
+  color: var(--text_col);
   min-height: 100vh;
   .fullscreen {
     flex-grow: 1;

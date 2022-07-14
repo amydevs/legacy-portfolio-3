@@ -4,7 +4,7 @@
     > div {
         padding: 3px 10px 15px 10px;
         border-radius: $default-border-radius;
-        background: rgba($color: #ffffff, $alpha: 0.05);
+        background: var(--overlay_lighten);
     }
     img {
         max-height: 100%;
