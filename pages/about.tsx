@@ -15,7 +15,11 @@ const About: NextPage = () => {
 
     return (
         <div className={`fullscreen ${styles.wrapper}`}>
-            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{mkdwn}</ReactMarkdown>
+            <div>
+                <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+                    {mkdwn}
+                </ReactMarkdown>
+            </div>
         </div>
     )
 }
