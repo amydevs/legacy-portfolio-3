@@ -17,4 +17,14 @@
       margin: 8px !important;
     }
   }
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    gap: 8px;
+  }
 }
