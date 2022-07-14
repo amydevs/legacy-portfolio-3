@@ -10,6 +10,10 @@ export const routes: Route[] = [
     {
         name: "About",
         path: "/about",
+    },
+    {
+        name: "Radio",
+        path: "/radio",
     }
 ]
 

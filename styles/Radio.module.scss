@@ -1,0 +1,13 @@
+@import "styles/variables.scss";
+.radio {
+    padding: 0px 10vw 10px 10vw;
+    > div {
+        padding: 15px;
+        border-radius: $default-border-radius;
+        background: rgba($color: #ffffff, $alpha: 0.05);
+
+        iframe {
+            border-radius: 12px;
+        }
+    }
+}
