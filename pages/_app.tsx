@@ -8,8 +8,11 @@ import { routes } from 'modules/routes'
 
 import { ThemeProvider } from 'next-themes'
 
+import ThemeSwitch from 'components/ThemeSwitch';
+
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
+
   return (
     <ThemeProvider>
       <div id='app'>
@@ -22,10 +25,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     {e.name}
                   </a>
                 </Link>
-                {i === routes.length-1 ? '' : ' | '}
+                {' | '}
               </span>
             )
           }) }
+          <ThemeSwitch></ThemeSwitch>
         </nav>
         <Component {...pageProps} />
       </div>
