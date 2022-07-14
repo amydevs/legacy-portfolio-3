@@ -7,8 +7,12 @@
   --overlay_darken: rgba(0, 0, 0, 0.3);
 }
 [data-theme='light'] {
-  --background: white;
-  --text_col: white;
+  --background: #FAF2F1;
+  --text_col: black;
+  --overlay_lighten: #{$accent-color}15;
+  --overlay_darken: #{$accent-color}5b;
+
+  --test: #e22c785b;
 }
 
 html {
