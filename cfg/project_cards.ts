@@ -16,7 +16,7 @@ const project_cards: ProjectCardProps[] = [
     },
     {
         title: "Simple Australian Tax Calculator",
-        description: "A simple tax calculator for the Australian taxation system.",
+        description: "A simple tax calculator for the Australian taxation system. Built with Laravel and PHP.",
         actions: [
             {
                 text: "GitHub",
