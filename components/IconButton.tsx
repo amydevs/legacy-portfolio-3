@@ -2,15 +2,15 @@ import { NextPage } from  'next';
 import Icon from '@mdi/react';
 import Link from 'next/link';
 
-import styles from "../styles/components/IconButton.module.scss";
+import styles from "styles/components/IconButton.module.scss";
 
-export interface Props {
+export interface IconButtonProps {
     href: string,
     icon: string,
     text: string,
 }
 
-const IconButton: NextPage<Props> = (props) => {
+const IconButton: NextPage<IconButtonProps> = (props) => {
     return (
         <Link
             href={props.href}

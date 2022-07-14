@@ -1,7 +1,7 @@
-import { Props } from "../components/IconButton";
+import { IconButtonProps } from "../components/IconButton";
 import { mdiGithub, mdiSpotify, mdiMusicCircle, mdiSoundcloud, mdiFaceWomanProfile } from "@mdi/js";
 
-const links: Props[] = [
+const links: IconButtonProps[] = [
     {
         "href": "https://github.com/jy1263/",
         "icon": mdiGithub,
