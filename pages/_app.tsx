@@ -12,7 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div id='app'>
       <nav>
         { routes.map((e, i) => {
-          console.log(e.path == router.route)
           return (
             <span key={i}>
               <Link href={e.path} >
