@@ -14,15 +14,17 @@ import ThemeSwitch from 'components/ThemeSwitch';
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
+  const found_route = routes.find((e) => router.route == e.path);
+
+  const title = "Amy" + (found_route ? " - " + found_route.name : "");
+  const image_src = `https://github.com/${process.env.GH_USERNAME}.png`;
+
   return (
     <ThemeProvider>
       <Head>
-        <title>
-          Amy{
-            ` - ${routes.find((e) => router.route == e.path)?.name}`
-          }
-        </title>
-        <link rel="image_src" href={`https://github.com/${process.env.GH_USERNAME}.png`} />
+        <title>{title}</title>
+        <link rel="image_src" href={image_src} />
+        <meta property="og:image" content={image_src} />
       </Head>
       <div id='app'>
         <nav>
