@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             ` - ${routes.find((e) => router.route == e.path)?.name}`
           }
         </title>
+        <link rel="image_src" href={`https://github.com/${process.env.GH_USERNAME}.png`} />
       </Head>
       <div id='app'>
         <nav>
