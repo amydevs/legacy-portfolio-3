@@ -25,13 +25,15 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>{title}</title>
         <meta property="og:title" content={title} />
-
+        <meta property="og:type" content="website" />
+        
         <meta name="description" content={description} />
         <meta property="og:description" content={description} />
         <meta name="twitter:description" content={description} />
 
         <link rel="image_src" href={image_src} />
         <meta property="og:image" content={image_src} />
+        <meta name="twitter:image" content={image_src} />
       </Head>
       <div id='app'>
         <nav>
