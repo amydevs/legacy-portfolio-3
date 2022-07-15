@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 
 import Link from 'next/link';
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 import { routes } from 'modules/routes'
 
@@ -15,6 +16,13 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <ThemeProvider>
+      <Head>
+        <title>
+          Amy{
+            ` - ${routes.find((e) => router.route == e.path)?.name}`
+          }
+        </title>
+      </Head>
       <div id='app'>
         <nav>
           { routes.map((e, i) => {
