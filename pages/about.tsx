@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown'
 import rehypeRaw from 'rehype-raw'
 
 const About: NextPage = () => {
-    let [mkdwn, set_mkdwn] = useState('');
+    const [mkdwn, set_mkdwn] = useState('');
 
     fetch('https://raw.githubusercontent.com/jy1263/jy1263/master/README.md').then(async e => {
         set_mkdwn(await e.text());
