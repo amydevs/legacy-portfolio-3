@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   const title = "Amy" + (found_route ? " - " + found_route.name : "");
   const image_src = `https://github.com/${process.env.GH_USERNAME}.png`;
-  const description = "Software Dev; Music Producer;";
+  const description = "Software Development and Music Production";
 
   return (
     <ThemeProvider>
