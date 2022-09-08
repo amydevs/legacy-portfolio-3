@@ -81,7 +81,7 @@ const project_cards: ProjectCardProps[] = [
     },
     {
         title: "SpinShare Client",
-        description: "Former maintainer and contributer for the open-source SpinShare level-sharing client for Spin Rhythm XD.",
+        description: "Former maintainer, contributer, and translator for the open-source SpinShare level-sharing client for Spin Rhythm XD.",
         actions: [
             {
                 text: "GitHub",
