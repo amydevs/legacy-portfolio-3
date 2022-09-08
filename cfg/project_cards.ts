@@ -78,6 +78,38 @@ const project_cards: ProjectCardProps[] = [
                 icon: mdiDownload
             }
         ]
+    },
+    {
+        title: "SpinShare Client",
+        description: "Former maintainer and contributer for the open-source SpinShare level-sharing client for Spin Rhythm XD.",
+        actions: [
+            {
+                text: "GitHub",
+                href: "https://github.com/SpinShare/client/",
+                icon: mdiGithub
+            },
+            {
+                text: "Download",
+                href: "https://spinsha.re/client/",
+                icon: mdiDownload
+            }
+        ]
+    },
+    {
+        title: "MaebeeTV Website",
+        description: "Freelance work done for MaebeeTV in rebuilding their website using the Next.js, Tailwind, TRPC, Prisma stack. Backend for team and even organization is in process.",
+        actions: [
+            {
+                text: "GitHub",
+                href: "https://github.com/jy1263/maebeetv/",
+                icon: mdiGithub
+            },
+            {
+                text: "Website",
+                href: "https://maebeetv.vercel.app/",
+                icon: mdiWeb
+            }
+        ]
     }
 ]
 
